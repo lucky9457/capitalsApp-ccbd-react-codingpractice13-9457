@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.list-style {
+  list-style: none;
+}
+.main {
+  background-color: wheat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+.selectcon {
+  display: flex;
+}
+.cap {
+  margin-left: 10px;
+}
+.country {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media (width<=992px) {
+  /* Write your CSS here */
+  .list-style {
+    list-style: none;
+  }
+  .main {
+    background-color: wheat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80vw;
+  }
+  .selectcon {
+    display: flex;
+  }
+  .selectcon {
+    display: flex;
+    align-items: center;
+  }
+  .cap {
+    margin-left: 10px;
+    font-size: 22px;
+  }
+  .country {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .head {
+    font-size: 50px;
+  }
+  .selection {
+    font-size: 30px;
+    width: 200px;
+    font-family: roboto;
+    padding: 10px;
+  }
+}
